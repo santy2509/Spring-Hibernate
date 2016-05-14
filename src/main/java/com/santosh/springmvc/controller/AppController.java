@@ -29,7 +29,7 @@ public class AppController {
 	MessageSource messageSource;
 
 	/*
-	 * This method will list all existing employees.
+	 * Method to list Employees
 	 */
 	@RequestMapping(value = { "/", "/list" }, method = RequestMethod.GET)
 	public String listEmployees(ModelMap model) {
